@@ -1,0 +1,66 @@
+
+body {
+	padding-top: 50px;
+	background: #F5F5F5;
+	color: #FFF;
+	font-family: sans-serif;
+}
+
+.wrap {
+	margin: 0 auto;
+	padding: 15px;
+	width: 850px;
+	height: 300px;
+	box-shadow: 0 0 20px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+
+.box {
+	width: 25%;
+	height: 200px;
+	border-radius: 8px;
+	background: #4682B4;
+	-webkit-transition-property: margin, background;
+	   -moz-transition-property: margin, background;
+	    -ms-transition-property: margin, background;
+	     -o-transition-property: margin, background;
+	        transition-property: margin, background;
+	-webkit-transition-duration: 4s, 2.5s;
+	   -moz-transition-duration: 4s;
+	    -ms-transition-duration: 4s;
+	     -o-transition-duration: 4s;
+	        transition-duration: 4s;
+-webkit-transition-timing-function: cubic-bezier(0, .9, .8, 1), ease;
+-webkit-transition-delay: 1s;
+   -moz-transition-delay: 1s;
+    -ms-transition-delay: 1s;
+     -o-transition-delay: 1s;
+        transition-delay: 1s;
+	-webkit-transition: margin 1s ease-in 0s, background 1s ease 1s;
+	   -moz-transition: margin 1s ease-in 0s, background 1s ease 1s;
+	    -ms-transition: margin 1s ease-in 0s, background 1s ease 1s;
+	     -o-transition: margin 1s ease-in 0s, background 1s ease 1s;
+	        transition: margin 1s ease-in 0s, background 1s ease 1s;
+
+ }
+
+.wrap:hover .box {
+ 	background: #F08080;
+ 	margin-left: 75%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

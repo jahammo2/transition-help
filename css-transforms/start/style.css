@@ -1,0 +1,90 @@
+body {
+	padding-top: 70px;
+	background: rgba(240,252,255,.8);
+}
+.wrap {
+	margin: 0 auto;
+	padding: 110px 0;
+	width: 85%;
+	background: #F0FCFF;
+	box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+.box {
+	margin: auto;
+	width: 150px;
+	background: url('mike-transparent.png') no-repeat 0 0;
+	background-size: 150px;
+}
+.mike {
+	display: block;
+	width: 100%;
+	-webkit-transition: 5s ease-in-out;
+/*	   -moz-transition: 1s ease-in-out;
+	    -ms-transition: 1s ease-in-out;
+	     -o-transition: 1s ease-in-out;
+	        transition: 1s ease-in-out;*/
+/*	-webkit-transform: rotate(2turn);*/
+}
+
+.wrap:hover .mike {
+/*	-webkit-transition: 1s ease-in-out;
+	   -moz-transition: 1s ease-in-out;
+	    -ms-transition: 1s ease-in-out;
+	     -o-transition: 1s ease-in-out;
+	        transition: 1s ease-in-out;	*/
+/*	-webkit-transform: rotate(2turn);
+	-webkit-transform-origin: top right;	
+	-webkit-transform: skew(45deg);
+	-webkit-transform: translateX(200px);
+	   -moz-transform: translateX(200px);
+	    -ms-transform: translateX(200px);
+	     -o-transform: translateX(200px);
+	        transform: translateX(200px);*/
+/*	       -moz-transform: scaleX(1.5);
+	        -ms-transform: scaleX(1.5);
+	         -o-transform: scaleX(1.5);
+	            transform: scaleX(1.5); */ 
+
+	-webkit-transform: scale(1.5) rotate(25deg) translate(50%, -25%);
+	   -moz-transform: scale(1.5) rotate(25deg) translate(50%, -25%);
+	    -ms-transform: scale(1.5) rotate(25deg) translate(50%, -25%);
+	     -o-transform: scale(1.5) rotate(25deg) translate(50%, -25%);
+	        transform: scale(1.5) rotate(1turn) translate(50%, -25%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

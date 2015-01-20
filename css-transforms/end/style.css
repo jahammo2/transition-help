@@ -1,0 +1,70 @@
+body {
+	padding-top: 70px;
+	background: rgba(240,252,255,.8);
+}
+.wrap {
+	margin: 0 auto;
+	padding: 110px 0;
+	width: 85%;
+	background: #F0FCFF;
+	-webkit-box-shadow: 0 0 20px rgba(0,0,0,.5);
+	        box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+.box {
+	margin: auto;
+	width: 150px;
+	background: url('mike-transparent.png') no-repeat 0 0;
+	-webkit-background-size: 150px 150px;
+	        background-size: 150px;
+}
+.mike {
+	display: block;
+	width: 100%;
+	-webkit-transition: 1s ease-in-out;
+	        transition: 1s ease-in-out;
+}
+
+.wrap:hover .mike {
+	-webkit-transform: rotate(2turn);
+	-webkit-transform-origin: 100% 100%;
+}
+
+div {
+	-webkit-transition: 1s;
+	        transition: 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
